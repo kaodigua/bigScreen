@@ -11,8 +11,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "autofit.js": "^3.1.1",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.7.8",
+    "@element-plus/icons-vue": "^2.1.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
+    "animejs": "^3.2.1",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
@@ -23,6 +29,9 @@
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
+    "sass": "^1.77.8",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.3",
     "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1"
   }
